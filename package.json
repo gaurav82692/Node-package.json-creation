@@ -1,0 +1,20 @@
+{
+  "name": "git_test",
+  "version": "1.0.0",
+  "description": "this is package.json creariotn ",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaurav82692"
+  },
+  "author": "gaurav",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
